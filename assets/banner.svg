@@ -2,7 +2,7 @@
 <style>
   .t { font: 14px Consolas, 'Cascadia Mono', 'Courier New', monospace; fill: #eeedf0; }
   .ttl { font: 12px 'Segoe UI', Arial, sans-serif; fill: #c9d1d9; }
-  .scroll { animation: scroll 20.16s steps(48) infinite; }
+  .scroll { animation: scroll 4.80s steps(48) infinite; }
   @keyframes scroll { to { transform: translateY(-912px); } }
   .type { animation: type 2.6s steps(78) forwards; }
   @keyframes type { from { width: 184.8px; } to { width: 844.0px; } }
@@ -12,7 +12,6 @@
   @keyframes sp { 0%, 24.9% { opacity: 1; } 25%, 100% { opacity: 0; } }
   .egg { animation: egg 1.4s ease-in-out infinite; }
   @keyframes egg { 50% { opacity: .55; } }
-  @media (prefers-reduced-motion: reduce) { .scroll, .cur, .sp { animation: none; } .type { animation: none; width: 844.0px; } .sp0 { opacity: 1; } }
 </style>
 <defs>
   <clipPath id="view"><rect x="0" y="136" width="960" height="258"/></clipPath>
